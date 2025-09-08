@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "READ_HEALTH_DATA",
+      "value": "Read heart rate"
+    },
+    {
+      "name": "hr",
+      "value": "Heart Rate:"
+    },
+    {
+      "name": "ohos_permission_readhr",
+      "value": "ohos.permission.READ_HEALTH_DATA"
+    }
+  ]
+}
