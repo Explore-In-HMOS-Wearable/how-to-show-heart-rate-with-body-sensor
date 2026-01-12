@@ -1,13 +1,13 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
+> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit 
 
-# Get Heart Rate with Sensor Services Kit
+# How-To-Heart-Rate-with-Body-Sensor
 In this app, real-time heart rate monitoring was implemented by using Huawei's Sensor Kit. The sensor continuously fetches the user's heart rate data and displays it on the screen in real-time. By integrating the Sensor Service Kit, the app listens for heart rate sensor events, processing them as they occur.
 
 # Preview
 
 <div>
-   <img src="./screenshots/permissionoutput.png" width="25%"/>
-   <img src="./screenshots/hroutput.png" width="25%"/>
+<img src="./screenshots/permissionoutput.png" width="25%"/>
+<img src="./screenshots/hroutput.png" width="25%"/>
 </div>
 
 # Use Cases
@@ -31,14 +31,17 @@ Additionally, Particle animation was used to add visual richness to the backgrou
 - **Libraries**:
     - `@kit.ArkUI`
     - `@kit.SensorServiceKit`
-    - `@kit.BasicServicesKit`
-
+    - `@kit.BasicServicesKit` 
+    - `@kit.PerformanceAnalysisKit`
+  
 # Directory Structure
 
    ```
 entry/src/main/ets/
 |---pages
 |---|---Index
+|---utils
+|---|---PermissionsUtil
 |---entryability
 |---|---EntryAbility
 |---entrybackupability
@@ -56,5 +59,5 @@ ohos.permission.READ_HEALTH_DATA
 
 # License
 
-**Get heart rate with sensor services kit** is distributed under the terms of the MIT License
+**How to Get Heart Rate with Sensor Services Kit?** is distributed under the terms of the MIT License
 See the [license](./LICENSE) for more information.

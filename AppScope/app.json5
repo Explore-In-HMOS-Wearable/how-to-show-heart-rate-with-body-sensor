@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.getheartratewithbodysensor",
+    "bundleName": "com.hmosdemos.wearable.how_to_heart_rate_with_body_sensor",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",
